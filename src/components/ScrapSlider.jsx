@@ -58,7 +58,12 @@ const ScrapSlider = () => {
     >
       <div className="container">
         <div className="row justify-content-between align-items-center">
-          <h3 className="text-center position-relative fs_4xl ff_inter text-white fw_regular pb-4">
+          <h3
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="1100"
+            className="text-center position-relative fs_4xl ff_inter text-white fw_regular pb-4"
+          >
             OUR <span className="hero_text">FEATURES!</span>
           </h3>
           <div className="col-lg-6">

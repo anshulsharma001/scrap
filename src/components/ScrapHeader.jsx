@@ -38,15 +38,28 @@ const ScrapHeader = () => {
         <div className="d-flex align-items-center flex-grow-1">
           <div className="w-100">
             <Container>
-              <h1 className="fs_5xl fw_medium text-white ff_poppins text-center">
+              <h1
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-duration="1100"
+                className="fs_5xl fw_medium text-white ff_poppins text-center"
+              >
                 WELCOME TO{" "}
                 <span className="hero_text ff_unbounded">SCRAPLAND</span>
               </h1>
-              <p className="fs_base fw_regular ff_poppins text-white text-center pt-2 mb-4">
+              <p
+                data-aos="zoom-in"
+                data-aos-delay="500"
+                data-aos-duration="1100"
+                className="fs_base fw_regular ff_poppins text-white text-center pt-2 mb-4"
+              >
                 Check out our gamemodes and servers below
               </p>
               <div className="d-flex align-items-center justify-content-center gap-2 gap-sm-4 pt-1">
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="500"
+                  data-aos-duration="1100"
                   href="#"
                   className="text-center d-flex flex-column align-items-center hero_social_media"
                 >
@@ -56,6 +69,9 @@ const ScrapHeader = () => {
                   </span>
                 </a>
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="600"
+                  data-aos-duration="1100"
                   href="#"
                   className="text-center d-flex flex-column align-items-center hero_social_media"
                 >
@@ -65,6 +81,9 @@ const ScrapHeader = () => {
                   </span>
                 </a>
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="700"
+                  data-aos-duration="1100"
                   href="#"
                   className="text-center d-flex flex-column align-items-center hero_social_media"
                 >
@@ -74,6 +93,9 @@ const ScrapHeader = () => {
                   </span>
                 </a>
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="800"
+                  data-aos-duration="1100"
                   href="#"
                   className="text-center d-flex flex-column align-items-center hero_social_media"
                 >
@@ -83,6 +105,9 @@ const ScrapHeader = () => {
                   </span>
                 </a>
                 <a
+                  data-aos="zoom-in"
+                  data-aos-delay="900"
+                  data-aos-duration="1100"
                   href="#"
                   className="text-center d-flex flex-column align-items-center hero_social_media"
                 >

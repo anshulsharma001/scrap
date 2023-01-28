@@ -10,10 +10,20 @@ const WhoWe = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={10} xl={8}>
-              <h3 className="text-center position-relative fs_4xl ff_inter text-white fw_regular">
+              <h3
+                data-aos="zoom-in"
+                data-aos-delay="100"
+                data-aos-duration="1100"
+                className="text-center position-relative fs_4xl ff_inter text-white fw_regular"
+              >
                 <span className="hero_text">WHO</span> WE ARE?
               </h3>
-              <p className="text-center position-relative fs_xl fw_medium text-white ff_poppins">
+              <p
+                data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1100"
+                className="text-center position-relative fs_xl fw_medium text-white ff_poppins"
+              >
                 Tincidunt laoreet integer ut aenean rhoncus. Pulvinar erat vitae
                 facilisis facilisi ut massa nec interdum laoreet. Morbi
                 tristique dictum facilisis pharetra egestas sit et. Velit nunc

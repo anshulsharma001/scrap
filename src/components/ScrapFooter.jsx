@@ -7,12 +7,22 @@ const ScrapFooter = () => {
   return (
     <>
       <footer id="Servers" className="py-4 py-sm-5">
-        <Container className="text-center pt-sm-5">
-          <a href="#" className="d-inline-block mb-4">
+        <Container id="" className="text-center pt-sm-5">
+          <a
+            data-aos="zoom-in"
+            data-aos-offset="400"
+            data-aos-duration="1100"
+            href="#"
+            className="d-inline-block mb-4"
+          >
             {" "}
             <img src={footerLogo} alt="footerLogo" />
           </a>
-          <p className="fs_base fw_regular text-white mb-4 opacity_05 pt-2 ff_poppins text-center">
+          <p
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            className="fs_base fw_regular text-white mb-4 opacity_05 pt-2 ff_poppins text-center"
+          >
             Iaculis turpis phasellus dolor fringilla. Sed tristique erat
             accumsan est. Tortor morbi odio{" "}
             <span className="d-lg-block">
@@ -20,7 +30,11 @@ const ScrapFooter = () => {
               pell.
             </span>
           </p>
-          <ul className="ps-0 mb-0 d-flex justify-content-center gap-2 gap-md-5">
+          <ul
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+            className="ps-0 mb-0 d-flex justify-content-center gap-2 gap-md-5"
+          >
             <li>
               <a
                 href="#"
