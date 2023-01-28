@@ -6,7 +6,7 @@ import Discord from "../assets/img/svg/Discord.svg";
 const ScrapFooter = () => {
   return (
     <>
-      <footer id="Servers" className="py-4 py-sm-5">
+      <footer id="Servers" className="py-4 py-sm-5 overflow-hidden">
         <Container id="" className="text-center pt-sm-5">
           <a
             data-aos="zoom-in"
@@ -33,7 +33,7 @@ const ScrapFooter = () => {
           <ul
             data-aos="zoom-in"
             data-aos-duration="1100"
-            className="ps-0 mb-0 d-flex justify-content-center gap-2 gap-md-5"
+            className="ps-0 mb-0 d-flex justify-content-center flex-wrap gap-2  gap-sm-2 gap-md-5"
           >
             <li>
               <a

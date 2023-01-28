@@ -16,10 +16,12 @@ function App() {
   });
   return (
     <>
-      <ScrapHeader />
-      <WhoWe />
-      <ScrapSlider />
-      <ScrapFooter />
+      <div className="body_bg_color">
+        <ScrapHeader />
+        <WhoWe />
+        <ScrapSlider />
+        <ScrapFooter />
+      </div>
     </>
   );
 }
